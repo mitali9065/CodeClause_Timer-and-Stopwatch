@@ -1,0 +1,125 @@
+*,
+*:before,
+*::after{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #8c52ff;
+}
+.name{
+    background-color: white;
+    height: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
+    text-align: center;
+    color: #8c52ff;
+    font-size: 50px;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.container{
+    background-color: #fff;
+    width: 30%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 65%;
+    left: 50%;
+    padding: 20px 0px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
+}
+
+
+.timer-display{
+    position: relative;
+    width: 92%;
+    background: #fff;
+    left: 4%;
+    font-family: 'Roboto mono',monospace;
+    color: #8c52ff;
+    font-size: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+
+}
+
+.buttons {
+    width: 90%;
+    margin:60px  auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons button{
+    width: 120px;
+    height: 45px;
+    background-color: #8c52ff;
+    color: #fff;
+    border: none;
+    font-family: poppins,sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons button:nth-last-child(2){
+    background-color: #e35209;
+}
+
+.buttons button:nth-last-child(1){
+    background-color: #f7df1e;
+}
+
+.buttons button:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.timer {
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 24px 32px;
+    border-radius: 30px;
+    background: white;
+    margin-left: 38%;
+    margin-top: 8%;
+    width: 25%;
+    height: 25%;
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+  }
+  
+  .timer__part {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .timer__btn {
+    width: 50px;
+    height: 50px;
+    margin-left: 16px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background: #8208e6;
+    cursor: pointer;
+  }
+  
+  .timer__btn--start {
+    background: #00b84c;
+  }
+  
+  .timer__btn--stop {
+    background: #ff0256;
+  }
+  
